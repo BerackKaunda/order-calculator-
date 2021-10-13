@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price Calculator</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="../src/style.css">
+</head>
+<body class="p-0 m-0 font-mono bg-gray-300">
+    <div class="bodyWrapper border rounded-md bg-gray-900 text-white mt-12 m-auto text-center w-96">
+        <form class=" p-8  ">
+            <div class=" m-2 ">
+                <label class="" for="">Academic Level</label><br>
+                <select class=" text-black border border-gray-400 rounded-sm p-2 w-64 p focus:outline-none focus:border-transparent academic-level" name="">
+                    <option value="0.96" name="academic-level">
+                        Professional </option>
+                                    <option value="1" name="academic-level">
+                        Undergraduate  (yrs. 1-2) </option>
+                                    <option value="1.2" name="academic-level">
+                        Undergraduate (yrs. 3-4) </option>
+                                    <option value="1.3" name="academic-level">
+                        Graduate </option>
+                                    <option value="1.5" name="academic-level">
+                        Ph.D </option>
+                </select>
+            </div>
+            <div class=" m-2 ">
+                <label class="" for="">Type of Paper</label><br>
+                <select class=" text-black border border-gray-400 rounded-sm p-2 w-64 focus:outline-none focus:border-transparent" name="typeOfPaper" id="">
+                            <option value="1"> Essay (Any Type) </option>
+                                <option value="1"> Article (Any Type) </option>
+                                <option value="1"> Assignment </option>
+                                <option value="1"> Content (Any Type) </option>
+                                <option value="1"> Admission Essay </option>
+                                <option value="1"> Annotated Bibliography </option>
+                                <option value="1"> Argumentative Essay </option>
+                                <option value="1"> Article Review </option>
+                                <option value="1"> Book/Movie Review </option>
+                                <option value="1"> Business Plan </option>
+                                <option value="1.2"> Capstone Project </option>
+                                <option value="1"> Case Study </option>
+                                <option value="1"> Coursework </option>
+                                <option value="1"> Creative Writing </option>
+                                <option value="1"> Critical Thinking </option>
+                                <option value="1.3"> Dissertation </option>
+                                <option value="1"> Dissertation chapter </option>
+                                <option value="1"> Lab Report </option>
+                                <option value="1.2"> Math Problem </option>
+                                <option value="1"> Research Paper </option>
+                                <option value="1"> Research Proposal </option>
+                                <option value="1"> Research Summary </option>
+                                <option value="1"> Scholarship Essay </option>
+                                <option value="1"> Speech </option>
+                                <option value="1"> Statistic Project </option>
+                                <option value="1"> Term Paper </option>
+                                <option value="1"> Thesis/Thesis Chapter </option>
+                                <option value="1"> Other </option>
+                                <option value="0.9"> Presentation or Speech </option>
+                                <option value="1"> Q&amp;A </option>
+                                <option value="1"> speech work </option>
+                                <option value="1"> Application Paper </option>
+                                <option value="1"> Analysis </option>
+                                <option value="1"> Memo/Letter </option>
+                                <option value="0.5"> Outline </option>
+                                <option value="1"> Personal reflection </option>
+                                <option value="0.7"> Presentation/PPT </option>
+                                <option value="1"> Report (Any type) </option>
+                                <option value="1"> Response Essay </option>
+                                <option value="1"> Acceptance letter </option>
+                                <option value="2"> Online Exam </option>
+                                <option value="0.8"> Revision Paper </option>
+                                <option value="1.3"> Blog Writing </option>
+                                <option value="1"> Executive Summary </option>
+                                <option value="0.6"> Extended Revision </option>
+                                <option value="1.5"> Microsoft Project </option>
+                                <option value="0.5"> Progressive Paper </option>
+                                <option value="0.6"> Dissertation Editing </option>
+                                <option value="1.3"> Grant proposal </option>
+                                <option value="0.6"> Paraphrase </option>
+                                <option value="1.5"> Nursing calculations </option>
+                                <option value="0.8"> Combined Sections </option>
+                                <option value="0.75"> Dissertation editing </option>
+                                <option value="0.75"> Proofreading/editing </option>
+                                <option value="2"> Brochure </option>
+                                <option value="0.8"> Paper Editing </option>
+                                <option value="3"> Brochure </option>
+                                <option value="1.5">  MS Project </option>
+                                <option value="1.4"> Microsoft Office project </option>
+                                <option value="1"> Resume </option>
+                                <option value="2"> Concept Map </option>
+                                <option value="2"> Poster </option>
+                                <option value="2"> Flyer </option>
+                                <option value="2.5"> Pamphlet presentation </option>
+                                <option value="0.75"> PowerPoint presentation </option>
+                </select>
+            </div>
+            <div class=" m-2 ">
+                <label class="" for="">Number of Pages</label><br>
+                <select class=" numberOfPages text-black border border-gray-400 rounded-sm p-2 w-64  focus:outline-none focus:border-transparent" name="" id="">
+                    <option value="1"> 1 Page </option>
+                    <option value="2"> 2 Pages </option>
+                    <option value="3"> 3 Pages </option>
+                    <option value="4"> 4 Pages </option>
+                    <option value="5"> 5 Pages </option>
+                    <option value="6"> 6 Pages </option>
+                    <option value="7"> 7 Pages </option>
+                    <option value="8"> 8 Pages </option>
+                    <option value="9"> 9 Pages </option>
+                    <option value="10"> 10 Pages </option>
+                    <option value="11"> 11 Pages </option>
+                    <option value="12"> 12 Pages </option>
+                    <option value="13"> 13 Pages </option>
+                    <option value="14"> 14 Pages </option>
+                    <option value="15"> 15 Pages </option>
+                    <option value="16"> 16 Pages </option>
+                    <option value="17"> 17 Pages </option>
+                    <option value="18"> 18 Pages </option>
+                    <option value="19"> 19 Pages </option>
+                    <option value="20"> 20 Pages </option>
+                    <option value="21"> 21 Pages </option>
+                    <option value="22"> 22 Pages </option>
+                    <option value="23"> 23 Pages </option>
+                    <option value="24"> 24 Pages </option>
+                    <option value="25"> 25 Pages </option>
+                    <option value="26"> 26 Pages </option>
+                    <option value="27"> 27 Pages </option>
+                    <option value="28"> 28 Pages </option>
+                    <option value="29"> 29 Pages </option>
+                    <option value="30"> 30 Pages </option>
+                    <option value="31"> 31 Pages </option>
+                    <option value="32"> 32 Pages </option>
+                    <option value="33"> 33 Pages </option>
+                    <option value="34"> 34 Pages </option>
+                    <option value="35"> 35 Pages </option>
+                    <option value="36"> 36 Pages </option>
+                    <option value="37"> 37 Pages </option>
+                    <option value="38"> 38 Pages </option>
+                    <option value="39"> 39 Pages </option>
+                    <option value="40"> 40 Pages </option>
+                    <option value="41"> 41 Pages </option>
+                    <option value="42"> 42 Pages </option>
+                    <option value="43"> 43 Pages </option>
+                    <option value="44"> 44 Pages </option>
+                    <option value="45"> 45 Pages </option>
+                    <option value="46"> 46 Pages </option>
+                    <option value="47"> 47 Pages </option>
+                    <option value="48"> 48 Pages </option>
+                    <option value="49"> 49 Pages </option>
+                    <option value="50"> 50 Pages </option>
+                    <option value="51"> 51 Pages </option>
+                    <option value="52"> 52 Pages </option>
+                    <option value="53"> 53 Pages </option>
+                    <option value="54"> 54 Pages </option>
+                    <option value="55"> 55 Pages </option>
+                    <option value="56"> 56 Pages </option>
+                    <option value="57"> 57 Pages </option>
+                    <option value="58"> 58 Pages </option>
+                    <option value="59"> 59 Pages </option>
+                    <option value="60"> 60 Pages </option>
+                    <option value="61"> 61 Pages </option>
+                    <option value="62"> 62 Pages </option>
+                    <option value="63"> 63 Pages </option>
+                    <option value="64"> 64 Pages </option>
+                    <option value="65"> 65 Pages </option>
+                    <option value="66"> 66 Pages </option>
+                    <option value="67"> 67 Pages </option>
+                    <option value="68"> 68 Pages </option>
+                    <option value="69"> 69 Pages </option>
+                    <option value="70"> 70 Pages </option>
+                    <option value="71"> 71 Pages </option>
+                    <option value="72"> 72 Pages </option>
+                    <option value="73"> 73 Pages </option>
+                    <option value="74"> 74 Pages </option>
+                    <option value="75"> 75 Pages </option>
+                    <option value="76"> 76 Pages </option>
+                    <option value="77"> 77 Pages </option>
+                    <option value="78"> 78 Pages </option>
+                    <option value="79"> 79 Pages </option>
+                    <option value="80"> 80 Pages </option>
+                    <option value="81"> 81 Pages </option>
+                    <option value="82"> 82 Pages </option>
+                    <option value="83"> 83 Pages </option>
+                    <option value="84"> 84 Pages </option>
+                    <option value="85"> 85 Pages </option>
+                    <option value="86"> 86 Pages </option>
+                    <option value="87"> 87 Pages </option>
+                    <option value="88"> 88 Pages </option>
+                    <option value="89"> 89 Pages </option>
+                    <option value="90"> 90 Pages </option>
+                    <option value="91"> 91 Pages </option>
+                    <option value="92"> 92 Pages </option>
+                    <option value="93"> 93 Pages </option>
+                    <option value="94"> 94 Pages </option>
+                    <option value="95"> 95 Pages </option>
+                    <option value="96"> 96 Pages </option>
+                    <option value="97"> 97 Pages </option>
+                    <option value="98"> 98 Pages </option>
+                    <option value="99"> 99 Pages </option>
+                    <option value="100"> 100 Pages </option>                    
+                </select>
+            </div>
+            <div class=" m-2 numberOfWords">
+                <p></p> 
+            </div>
+            <div class=" m-2 ">
+                <label class="" for="">Urgency</label><br>
+                <select class=" urgency text-black border border-gray-400 rounded-sm p-2 w-64 focus:outline-none focus:border-transparent" id="">
+                    <option name="order_deadline" value="32.99">3 Hours </option>
+                    <option name="order_deadline" value="27.99">6 Hours </option>
+                    <option name="order_deadline" value="25.99">8 Hours </option>
+                    <option name="order_deadline" value="23.99">12 Hours </option>
+                    <option name="order_deadline" value="17.99">24 Hours </option>
+                    <option name="order_deadline" value="15.99">48 Hours </option>
+                    <option name="order_deadline" value="14.99">3 Days </option>
+                    <option name="order_deadline" value="13.99">4 Days </option>
+                    <option name="order_deadline" value="12.99">7 Days </option>
+                    <option name="order_deadline" value="12.691">11 Days </option>
+                    <option name="order_deadline" value="12.055">45 Days </option>
+                    <option name="order_deadline" value="12.050">30 Days </option>
+                    <option name="order_deadline" value="12.050">60 Days </option>
+                    <option name="order_deadline" value="12.054">14 Days </option>
+                </select>
+            </div>
+            <div class="total">
+                <p>
+                    $ 40
+                </p>
+            </div>
+
+            <div class="orderButton m-4" >
+                <button class=" border p-2 pl-4 pr-4 hover:bg-white  hover:text-gray-900 hover:{border-none}"> 
+                    Order Now
+                </button>
+            </div>
+        </form>
+    </div>
+
+    <div class="checkout bodyWrapper border rounded-md bg-gray-700 text-white md:m-20 m-14 text-center hidden  grid-cols-1 md:grid-cols-2">
+
+        <div class="m-8">
+            <h1 class=" font-bold text-2xl m-6 checkoutText">
+               
+            </h1 >
+            <p>
+                
+            </p>
+            <p class="font-bold text-5xl m-4 md:mt-32 checkoutTotal">
+                $ 24
+            </p>
+
+        </div>
+        <div class=" m-4 bg-blue-600 table p-6 rounded ">
+                <div class="m-4">
+                    <label class="float-left" for="">Card</label>
+                    <input class="w-full p-2 border rounded focus:outline-none  text-gray-900" type="num" maxlength="16" placeholder="0000 0000 0000 0000">
+                </div>
+
+                <div class="m-4">
+                    <label class="float-left" for="">Name on Card</label>
+                    <input class="w-full p-2 border rounded focus:outline-none  text-gray-900" type="text" placeholder="Name on Card" >
+                </div>
+                <div class="m-4">
+                    <label class="float-left" for="">Expiry</label>
+                    <input class="w-full p-2 border rounded focus:outline-none  text-gray-900" type="text" placeholder="MM/YY">
+                </div>
+                <div class="m-4">
+                    <label class="float-left" for="">CVC/Securty Code</label>
+                    <input class="w-full p-2 border rounded focus:outline-none  text-gray-900" type="text" placeholder="CVC">
+                </div>
+                <div>
+                    <button class="border p-2 pl-4 pr-3 bg-gray-900 ">
+                        Checkout
+                    </button>
+                </div>
+        </div>
+
+
+        
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
